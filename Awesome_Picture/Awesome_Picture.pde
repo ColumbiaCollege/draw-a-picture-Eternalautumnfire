@@ -148,3 +148,28 @@ stroke(0);
 fill(#F2F251);
 // Ellips for sun
 ellipse(1180, 0, 100, 100);
+
+// Car because why not.
+fill(#C42F2A);
+ellipse(280, 720, 400, 100);
+rect(80, 720, 400, 50);
+fill(0);
+ellipse(420, 760, 60, 60);
+stroke(255);
+fill(122.5);
+ellipse(420, 760, 30, 30);
+fill(0);
+stroke(0);
+ellipse(120, 760, 60, 60);
+stroke(255);
+fill(122.5);
+ellipse(120, 760, 30, 30);
+fill(0); stroke(0);
+ellipse(280, 690, 100, 50);
+fill(#C42F2A);
+beginShape();
+vertex(80, 680);
+vertex(110, 670);
+vertex(100, 720);
+vertex(70, 730);
+endShape(CLOSE);
